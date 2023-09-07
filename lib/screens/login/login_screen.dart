@@ -111,6 +111,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                       ),
                     ),
                     TextFormField(
+                      controller: _email,
                       decoration: InputDecoration(
                         labelText: 'Email',
                         errorText: emailError,
@@ -125,6 +126,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                       maxLength: 20,
                     ),
                     TextFormField(
+                      controller: _pass,
                       obscureText: true,
                       obscuringCharacter: '#',
                       decoration: InputDecoration(

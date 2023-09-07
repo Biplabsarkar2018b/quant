@@ -23,7 +23,7 @@ class AuthRepo {
       );
       showSnackbar(message: "Logged In", context: context);
     } catch (e) {
-      showSnackbar(message: "Something went wrong", context: context);
+      // showSnackbar(message: "Something went wrong", context: context);
     }
   }
 
@@ -39,7 +39,7 @@ class AuthRepo {
       );
       showSnackbar(message: "User Created", context: context);
     } catch (e) {
-      showSnackbar(message: "Something went wrong", context: context);
+      // showSnackbar(message: "Something went wrong", context: context);
     }
   }
 }
